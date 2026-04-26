@@ -4,10 +4,10 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Random;
 
-public class RandomLine {
+public class game {
     public static void main(String[] args) throws IOException {
         // Read all lines into memory
-        List<String> lines = Files.readAllLines(Paths.get("yourfile.txt"));
+        List<String> lines = Files.readAllLines(Paths.get("words.txt"));
         
         // Pick a random index
         Random random = new Random();
